@@ -30,7 +30,7 @@ from diffusers.image_processor import PipelineImageInput, VaeImageProcessor
 from diffusers.loaders import IPAdapterMixin, LoraLoaderMixin, TextualInversionLoaderMixin
 from diffusers.models import AutoencoderKL, ImageProjection, UNet2DConditionModel, UNetMotionModel
 from diffusers.models.lora import adjust_lora_scale_text_encoder
-from diffusers.models.unet_motion_model import MotionAdapter
+from diffusers.models.unets.unet_motion_model import MotionAdapter
 from diffusers.pipelines.animatediff.pipeline_output import AnimateDiffPipelineOutput
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline, StableDiffusionMixin
 from diffusers.schedulers import (
